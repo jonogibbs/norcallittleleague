@@ -25,3 +25,9 @@ a:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
 .skip:focus { left: 0; background: #fff; padding: .5rem 1rem; z-index: 10; }
 ul { padding-left: 1.25rem; margin: 0; }
 footer p { margin: .25rem 0; }
+
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+caption { text-align: left; font-weight: 700; color: var(--navy); padding-bottom: .25rem; }
+th, td { text-align: left; padding: .35rem .5rem; border-bottom: 1px solid #e3e3ea; }
+thead th { border-bottom: 2px solid var(--navy); }
+tbody th { font-weight: 600; white-space: nowrap; }
